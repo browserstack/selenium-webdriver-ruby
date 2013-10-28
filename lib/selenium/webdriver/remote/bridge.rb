@@ -43,7 +43,7 @@ module Selenium
         def initialize(opts = {})
           opts = opts.dup
 
-          http_client          = opts.delete(:http_client) { Http::Default.new }
+          http_client          = opts.delete(:http_client) { Http::Curb.new }
           desired_capabilities = opts.delete(:desired_capabilities) { Capabilities.firefox }
           url                  = opts.delete(:url) { "http://#{Platform.localhost}:4444/wd/hub" }
 

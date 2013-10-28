@@ -7,6 +7,7 @@ require 'selenium/webdriver/remote/response'
 require 'selenium/webdriver/remote/commands'
 require 'selenium/webdriver/remote/http/common'
 require 'selenium/webdriver/remote/http/default'
+require 'selenium/webdriver/remote/http/curb'
 
 module Selenium
   module WebDriver
