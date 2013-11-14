@@ -1,25 +1,10 @@
-# browserstack-webdriver
-
-This gem provides Ruby bindings for WebDriver and has been tested to work on MRI (1.9.2 through 2.1), JRuby and Rubinius.
-
-## Install
-
-    gem install browserstack-webdriver
-
-## Links
-
-* http://rubygems.org/gems/browserstack-webdriver
-* https://github.com/browserstack/selenium-webdriver-ruby
-
-## License
-
-Copyright 2009-2013 Software Freedom Conservancy
+Copyright 2013 BrowserStack
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-     http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
